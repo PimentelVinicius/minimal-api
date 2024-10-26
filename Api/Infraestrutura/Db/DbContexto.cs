@@ -19,8 +19,8 @@ public class DbContexto : DbContext
         modelBuilder.Entity<Administrador>().HasData(
             new Administrador {
                 Id = 1,
-                Email = "administrador@teste.com",
-                Senha = "123456",
+                Email = "TesteV@teste.com",
+                Senha = "14725839",
                 Perfil = "Adm"
              }
         );
